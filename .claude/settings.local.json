@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(timeout 15 npm run dev)",
+      "Bash(npx tsc:*)",
+      "Bash(npm install:*)",
+      "Bash(timeout 12 npm run dev)",
+      "Bash(node:*)",
+      "Bash(npx vitest:*)",
+      "Bash(xargs grep:*)"
+    ]
+  }
+}
